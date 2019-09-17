@@ -1,18 +1,143 @@
 <!DOCTYPE html>
-
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
-</head>
+	<head>
+		<title>actuallynimo</title>
+	</head>
+	<body>
+		<a href="blog.html">Go to Blog</a>
+		<hr>
+		<!-- Headings -->
+		<h1>Heading 2</h1>
+		<h2>Heading 3</h2>
+		<h3>Heading 3</h3>
+		<h4>Heading 4</h4>
+		<h5>Heading 5</h5>
+		<h6>Heading 6</h6>
 
-<body>
+		<!-- Paragraph -->
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor <strong>incididunt</strong> ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud <em>exercitation</em> ullamco <a href="https://actuallynimo.tumblr.com" target="_blank">laboris</a> a nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		<!--Lists-->
+		<ul>
+			<li>List Item1</li>
+			<li>List Item2</li>
+			<li>List Item3</li>
+			<li>List Item4</li>
+		</ul>
+		<ol>
+			<li>List Item1</li>
+			<li>List Item2</li>
+			<li>List Item3</li>
+			<li>List Item4</li>
+		</ol>
+		<!--Tables-->
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Age</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>actually nimo</td>
+					<td>nimoactually@gmail.com</td>
+					<td>19</td>
+				</tr>
+				<tr>
+					<td>pike arts</td>
+					<td>pikearts@gmail.com</td>	
+					<td>19</td>
+				</tr>
+			</tbody>
+		</table>
 
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
+		<br>
+		<hr>
+		<br>
+		<!--Forms-->
+		<form action="process.php" method="POST">
+			<div>
+				<label>First Name</label>
+				<input type="text" name="firstName" placeholder="Enter first name">
+			</div>
+			<br>
+			<div>	
+				<label>Last Name</label>
+				<input type="text" name="lastName">
+			</div>
+			<br>
+			<div>	
+				<label>Email</label>
+				<input type="email" name="email">
+			</div>
+			<br>
+			<div>	
+				<label>Message</label>
+				<textarea name="message"></textarea>
+			</div>
+			<br>
+			<div>	
+				<label>Class</label>
+				<select name="gender">
+					<option value="fighter">Fighter</option>
+					<option value="wizard">Wizard</option>
+					<option value="cleric">Cleric</option>
+					<option value="rogue">Rogue</option>
 
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Welcome to your first GitHub Pages website!</p>
+				</select>
+				<input type="text" name="lastName">
+			</div>
+			<br>
+			<div>	
+				<label>Level</label>
+				<input type="number" name="level" value="1">
+			</div>
+			<br>
+			<div>	
+				<label>Birthday</label>
+				<input type="date" name="birthday">
+			</div>
+			<br>
+			<input type="submit" name="submit" value="Submit">
+		</form>
+		<!--Button-->
+		<button click="someFunction">Click Me</button>
 
-</body>
+		<!--Image-->
+		<br>
+		<a href="images/jingling.png">
+			<img src="images/jinling.png" alt="whoopsie xP" >
+		</a>
+			
+		<!--Quotations-->
+		<blockquote cite="my brain">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</blockquote>
+
+		<h1><abbr title="Jin RuLan">Jin Ling</abbr> is awesome</h1>
+
+		<p><cite>Mo Dao Zu Shi</cite> by Mo Xiang Tong Xiu</p>
+		<div style="margin-top:500px"></div> 				
+	</body>
 </html>
